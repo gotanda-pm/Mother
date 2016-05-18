@@ -1,0 +1,13 @@
+tags: conference
+---
+# Gotanda.pm #<: $event.id :> を開催します
+
+第<: $event.id :>回目のTech Conferenceを開催します。
+
+スーパーゆるーい感じで開催する予定です。
+
+奮ってご応募下さい！
+
+こちらから応募！ => [connpass](<: $event.url :>)
+
+: include event::body

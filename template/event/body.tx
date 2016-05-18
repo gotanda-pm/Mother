@@ -1,0 +1,38 @@
+# テーマ
+
+## <: $event.thema().title() :>
+
+<: $event.thema().description() :>
+
+# 詳細
+
+日時: <: $event.start_at().strftime('%Y/%m/%d (%a)') :> <: $event.open_at().strftime('%H:%M') :>開場 <: $event.start_at().strftime('%H:%M') :> 〜 <: $event.end_at().strftime('%H:%M') :>
+
+会場: <: $event.venue().name() :> （<: $event.venue().address() :>）
+
+# 注意事項
+
+当日もアナウンスします
+
+## 写真撮影をさせて頂きます
+
+Gotanda.pmの記録と広報の目的で、Gotanda.pmのWebサイトに掲載するための写真をカンファレンス/懇親会中にしれっと撮影させて頂きます。
+写真が公開されると問題のある方はボカシ等配慮致しますので申し出て下さい。
+もし、NGの方があまりにも多い場合は写真撮影を中止します。
+が、五反田を盛り上げていくためにも極力雰囲気を分かりやすい形で伝えていきたいので是非ご協力下さい。
+
+# 懇親会
+
+<: $event.party().venue() :>で懇親会を開催する予定です。  
+皆様、奮ってご参加下さい！  
+※参加をご希望の方のみ、参加費<: $event.party().fee() :>円(予定)を頂きますので予めご準備下さい。
+
+# タイムテーブル
+
+内容は随時更新致します。
+
+| 時間 | 内容 | トーク内容 |
+|:-----|:-----|:-----------|
+: for $event.timetable().rows() -> $row {
+| <: $row.start_at().strftime('%H:%M') :>〜<: $row.end_at().strftime('%H:%M') :> | <: $row.title() :> | <: $row.description() :> |
+: }

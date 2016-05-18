@@ -1,0 +1,57 @@
+---
+event:
+  id: 9
+  url: http://connpass.com/
+  thema:
+    title: TODO
+    description: |-
+      TODO
+      ですよ
+  venue:
+    name: 株式会社モバイルファクトリー
+    address: 東京都品川区東五反田1-24-2 東五反田1丁目ビル8階
+  date: 2016-06-22
+  open_at: 19:00
+  start_at: 19:30
+  timetable:
+    - type: announce
+      minutes: 10
+    - type: talk
+      minutes: 20
+      speaker: undef
+      detail: undef
+    - type: talk
+      minutes: 20
+      speaker: undef
+      detail: undef
+    - type: break
+      minutes: 10
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
+    - type: party
+      minutes: 120
+  party:
+    venue: ぼたん
+    fee: 2000
