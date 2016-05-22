@@ -18,7 +18,7 @@ carmel install
 
 ### script/make_markdown.pl
 
-テンプレどおりに吐くやつ。
+テンプレどおりに吐くやつ。タイムテーブルの時間もちゃんと計算してくれる。
 
 ```bash
 carmel exec -- perl -Ilib script/make_markdown.pl connpass
@@ -26,7 +26,8 @@ carmel exec -- perl -Ilib script/make_markdown.pl connpass
 
 ### script/make_event.pl
 
-connpassとか諸々全部作ってくれるやつ。まだ実装してない。
+会場のキャパシティやタイムテーブルからいい感じに枠を計算してconnpass作ってくれるやつ。
+募集枠の人数の計算やアンケートの作成も勝手にやってくれる。
 
 ```bash
 carmel exec -- perl -Ilib script/make_event.pl

@@ -23,7 +23,7 @@ sub rows {
     my $self = shift;
 
     my @rows = Mother::Event::Timetable::Row::Entry->new($self->{open_at}, {
-        minutes => $self->{start_at}->delta_minutes($self->{open_at}),
+        minutes => $self->{open_at}->delta_minutes($self->{start_at}),
     });
     for my $row_data (@{ $self->{config} }) {
         my $row_class = _guess_row_class($row_data->{type});

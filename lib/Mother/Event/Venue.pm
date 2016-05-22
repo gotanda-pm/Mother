@@ -9,8 +9,10 @@ sub new {
     } => $class;
 }
 
-sub name    { shift->{config}->{name}    }
-sub address { shift->{config}->{address} }
+sub name     { shift->{config}->{name}     }
+sub address  { shift->{config}->{address}  }
+sub url      { shift->{config}->{url}      }
+sub capacity { shift->{config}->{capacity} }
 
 1;
 __END__
