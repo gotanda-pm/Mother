@@ -11,6 +11,15 @@ carmel install
 
 ## Usage
 
+## .connpass
+
+Connpassのユーザー情報を保存する。  
+Config::Identityを使っているのでgpgで暗号化しておくことが可能。  
+`gpg2 -ea ~/.connpass && mv ~/.connpass{.asc,}` などとするといい。  
+
+Connpassのユーザーはgotanda-pm-robotを利用する。  
+パスワードは口伝なので誰かに訊きましょう。
+
 ### config/event.yaml
 
 イベントの情報を持っているyamlファイル。
