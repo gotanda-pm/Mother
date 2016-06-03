@@ -54,6 +54,9 @@ event:
       detail: undef
     - type: party
       minutes: 120
+  sponsors: []
+    # - name: ~
+    #   url: ~
   party:
     venue: ぼたん
     fee: 2000

@@ -9,6 +9,7 @@ use List::Util qw/sum/;
 use Mother::Event::Thema;
 use Mother::Event::Venue;
 use Mother::Event::Party;
+use Mother::Event::Sponsor;
 use Mother::Event::Timetable;
 use Mother::Event::Waitlist;
 
@@ -33,6 +34,13 @@ sub title     { sprintf 'Gotanda.pm Perl Technology Conference #%d', shift->id }
 sub thema     { Mother::Event::Thema->new(shift->{config}->{thema}) }
 sub party     { Mother::Event::Party->new(shift->{config}->{party}) }
 sub venue     { Mother::Event::Venue->new(shift->{config}->{venue}) }
+
+sub sponsors {
+    my $self = shift;
+    return [
+        map { Mother::Event::Sponsor->new($_) } @{ $self->{config}->{sponsors} }
+    ];
+}
 
 sub connpass_event_id {
     my $self = shift;

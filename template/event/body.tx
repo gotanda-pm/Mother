@@ -25,7 +25,23 @@ Gotanda.pmの記録と広報の目的で、Gotanda.pmのWebサイトに掲載す
 
 <: $event.party().venue() :>で懇親会を開催する予定です。  
 皆様、奮ってご参加下さい！  
+: if $event.party().fee() == 0 && $event.sponsors().size() > 0 {
+スポンサー様のご厚意により参加費は無料とさせて頂ける予定です。スポンサーの
+:   for $event.sponsors() -> $sponsor {
+[<: $sponsor.name() :>様](<: $sponsor.url() :>)、
+:   }
+ありがとうございます！
+: } else {
 ※参加をご希望の方のみ、参加費<: $event.party().fee() :>円(予定)を頂きますので予めご準備下さい。
+: }
+
+: if $event.sponsors().size() > 0 {
+# 提供
+今回のGotanda.pmはこちらのスポンサーの提供でお送り致します。
+:   for $event.sponsors() -> $sponsor {
+* [<: $sponsor.name() :>様](<: $sponsor.url() :>)
+:   }
+: }
 
 # タイムテーブル
 
