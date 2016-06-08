@@ -68,18 +68,18 @@ $connpass_event->questionnaire->update_questions(
     ),
 );
 
-$connpass_event = $connpass_event->refetch()->update_waitlist_count(
-    map {
-        WWW::Connpass::Event::Waitlist::Fcfs->new(
-            name             => $_->name,
-            max_participants => $_->capacity,
-            join_fee         => '',
-            place_fee        => 0,
-        ),
-    } map { $event->waitlists($_) } qw/talk lt normal/
-);
-
 if (!$event->connpass_event_id) {
+    $connpass_event = $connpass_event->refetch()->update_waitlist_count(
+        map {
+            WWW::Connpass::Event::Waitlist::Fcfs->new(
+                name             => $_->name,
+                max_participants => $_->capacity,
+                join_fee         => '',
+                place_fee        => 0,
+            ),
+        } map { $event->waitlists($_) } qw/talk lt normal/
+    );
+
     my @user = map { $session->search_users_by_name($_) } qw/karupanerura papix/;
     for my $user (@user) {
         $connpass_event->add_owner($user);
