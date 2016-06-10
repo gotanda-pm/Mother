@@ -54,19 +54,22 @@ $connpass_event = $connpass_event->set_group($group)->set_place($place)->edit(
     end_datetime      => $event->end_at->strftime('%Y-%m-%dT%H:%M:%S'),
     description_input => $markdown,
 );
-$connpass_event->questionnaire->update_questions(
-    WWW::Connpass::Event::Question::Radio->new(
-        title        => sprintf('懇親会への参加を希望しますか？(参加費:%d円/予定/会場払い)', $event->party->fee),
-        answer_frame => [qw/参加する 参加しない/],
-        required     => 1,
-    ),
-    WWW::Connpass::Event::Question::FreeText->new(
-        title => 'Talk/LTを行う方はトークタイトル/テーマ等をご記入ください。(仮で結構です/なるべくご記入ください)',
-    ),
-    WWW::Connpass::Event::Question::FreeText->new(
-        title => 'その他、質問/要望/提案などあればご記入ください。',
-    ),
-);
+
+if ($connpass_event->questionnaire->is_new) {
+    $connpass_event->questionnaire->update_questions(
+        WWW::Connpass::Event::Question::Radio->new(
+            title        => sprintf('懇親会への参加を希望しますか？(参加費:%d円/予定/会場払い)', $event->party->fee),
+            answer_frame => [qw/参加する 参加しない/],
+            required     => 1,
+        ),
+        WWW::Connpass::Event::Question::FreeText->new(
+            title => 'Talk/LTを行う方はトークタイトル/テーマ等をご記入ください。(仮で結構です/なるべくご記入ください)',
+        ),
+        WWW::Connpass::Event::Question::FreeText->new(
+            title => 'その他、質問/要望/提案などあればご記入ください。',
+        ),
+    );
+}
 
 if (!$event->connpass_event_id) {
     $connpass_event = $connpass_event->refetch()->update_waitlist_count(
