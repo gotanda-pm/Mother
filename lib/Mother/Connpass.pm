@@ -11,7 +11,11 @@ my @REQUIRED = qw/username password/;
 sub load {
     my $class = shift;
     my @base = -f '.connpass' ? Cwd::getcwd() : ();
-    my %identity = Config::Identity->try_best(connpass => @base);
+
+    my $path = Config::Identity->best(connpass => @base);
+    die '.connpass is not found' unless $path;
+
+    my %identity = Config::Identity->load($path);
     return _check(%identity);
 }
 
