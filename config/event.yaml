@@ -1,7 +1,7 @@
 ---
 event:
   id: 9
-  url: http://gotanda-pm.connpass.com/event/32535/
+  url: http://gotanda-pm.connpass.com/event/33757/
   thema:
     title: Plack
     description: |-
@@ -60,4 +60,4 @@ event:
     #   url: ~
   party:
     venue: ぼたん
-    fee: 2000
+    fee: 2500
