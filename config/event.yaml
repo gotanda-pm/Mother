@@ -21,8 +21,8 @@ event:
       minutes: 10
     - type: talk
       minutes: 20
-      speaker: undef
-      detail: undef
+      speaker: skaji
+      detail: Reactive Programming in Perl6
     - type: talk
       minutes: 20
       speaker: undef
@@ -31,8 +31,8 @@ event:
       minutes: 10
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: karupanerura
+      detail: Motherでバブみのあるイベント運営
     - type: lt
       minutes: 5
       speaker: undef
