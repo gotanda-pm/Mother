@@ -35,8 +35,8 @@ event:
       detail: Motherでバブみのあるイベント運営
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: bayashi
+      detail: Perlおじさんの愉快な開発
     - type: lt
       minutes: 5
       speaker: undef
