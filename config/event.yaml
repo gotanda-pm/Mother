@@ -39,12 +39,12 @@ event:
       detail: Perlおじさんの愉快な開発
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: TomooAmano
+      detail: Amon2 で書かれた API サーバ開発を引き継いだ話
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: papix
+      detail: Okinawa.pm行ってきた(仮)
     - type: lt
       minutes: 5
       speaker: undef
