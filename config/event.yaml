@@ -47,8 +47,8 @@ event:
       detail: Okinawa.pm行ってきた(仮)
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: okazu_dm
+      detail: Google Cloud Platformで動くPerl
     - type: lt
       minutes: 5
       speaker: undef
