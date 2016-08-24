@@ -22,7 +22,7 @@ Connpassのユーザーはgotanda-pm-robotを利用する。
 
 ### config/event.yaml
 
-イベントの情報を持っているyamlファイル。
+イベントの情報を持っているyamlファイル。毎回上書き。
 こればっかりはどうしようもない。
 
 ### script/make_markdown.pl
