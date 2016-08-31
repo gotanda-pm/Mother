@@ -1,19 +1,17 @@
 ---
 event:
-  id: 9
-  url: http://gotanda-pm.connpass.com/event/33757/
+  id: 10
+  url: ~
   thema:
-    title: Plack
+    title: TBD
     description: |-
-      Plackを使っていないWebアプリはないんじゃないか？と思えるほどPlackは普及しているかと思います。  
-      その上で運用上のtipsなども溜まってきているのではないでしょうか。そういうものを是非紹介していただければと思います。  
-      また、Plackも少しづつ進化しています。Plackの最新情報も共有していきましょう。  
+      TBD
   venue:
-    name: 株式会社モバイルファクトリー
-    address: 東京都品川区東五反田1-24-2 (東五反田1丁目ビル8階)
-    url: http://www.mobilefactory.jp/corporate/access
+    name: 株式会社ガイアックス
+    address: 東京都品川区西五反田1-21-8 (KSS五反田ビル 6F)
+    url: http://www.gaiax.co.jp/corporate/access/
     capacity: 40
-  date: 2016-06-29
+  date: 2016-09-30
   open_at: 19:00
   start_at: 19:30
   timetable:
@@ -21,8 +19,8 @@ event:
       minutes: 10
     - type: talk
       minutes: 20
-      speaker: skaji
-      detail: Reactive Programming in Perl6
+      speaker: undef
+      detail: undef
     - type: talk
       minutes: 20
       speaker: undef
@@ -31,12 +29,12 @@ event:
       minutes: 10
     - type: lt
       minutes: 5
-      speaker: karupanerura
-      detail: Motherでバブみのあるイベント運営
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
-      speaker: bayashi
-      detail: Perlおじさんの愉快な開発
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
       speaker: TomooAmano
@@ -59,5 +57,5 @@ event:
     # - name: ~
     #   url: ~
   party:
-    venue: ぼたん
+    venue: TBD
     fee: 2500
