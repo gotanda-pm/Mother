@@ -37,16 +37,16 @@ event:
       detail: undef
     - type: lt
       minutes: 5
-      speaker: TomooAmano
-      detail: Amon2 で書かれた API サーバ開発を引き継いだ話
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
-      speaker: papix
-      detail: Okinawa.pm行ってきた(仮)
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
-      speaker: okazu_dm
-      detail: Google Cloud Platformで動くPerl
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
       speaker: undef
