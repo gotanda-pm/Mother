@@ -1,4 +1,5 @@
 requires 'Config::Identity';
+requires 'LWP::Protocol::https';
 requires 'Encode';
 requires 'List::Util';
 requires 'List::UtilsBy';
