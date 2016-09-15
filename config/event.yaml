@@ -1,11 +1,11 @@
 ---
 event:
   id: 10
-  url: ~
+  url: http://gotanda-pm.connpass.com/event/40519/
   thema:
-    title: TBD
+    title: 問題解決
     description: |-
-      TBD
+      Perlの問題解決、Perlを使った問題解決、などなど。
   venue:
     name: 株式会社ガイアックス
     address: 東京都品川区西五反田1-21-8 (KSS五反田ビル 6F)
@@ -57,5 +57,5 @@ event:
     # - name: ~
     #   url: ~
   party:
-    venue: TBD
-    fee: 2500
+    venue: TBD(会場近辺)
+    fee: 3000
