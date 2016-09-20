@@ -19,8 +19,8 @@ event:
       minutes: 10
     - type: talk
       minutes: 20
-      speaker: undef
-      detail: undef
+      speaker: papix
+      detail: Amon2やAnikiなどを使ってSSH公開鍵の管理サービスを作ってみた話 (仮)
     - type: talk
       minutes: 20
       speaker: undef
@@ -29,8 +29,8 @@ event:
       minutes: 10
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: skaji
+      detail: I went to YAPC::NA 2016
     - type: lt
       minutes: 5
       speaker: undef
