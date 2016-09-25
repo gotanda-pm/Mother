@@ -23,8 +23,8 @@ event:
       detail: Amon2やAnikiなどを使ってSSH公開鍵の管理サービスを作ってみた話 (仮)
     - type: talk
       minutes: 20
-      speaker: undef
-      detail: undef
+      speaker: karupanerura
+      detail: ISUCONで役に立たない！Perlのマイクロチューニング術
     - type: break
       minutes: 10
     - type: lt
