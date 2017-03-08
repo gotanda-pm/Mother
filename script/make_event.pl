@@ -84,7 +84,7 @@ if (!$event->connpass_event_id) {
     );
 
     my %owners_map = map { $_->username => $_ } $connpass_event->owners;
-    my @user = map { $session->search_users_by_name($_) } grep { !$owners_map{$_} } qw/karupanerura papix kfly8/;
+    my @user = map { $session->search_users_by_name($_) } grep { !$owners_map{$_} } qw/karupanerura papix kfly8 umaaaaa/;
     for my $user (@user) {
         $connpass_event->add_owner($user);
     }
