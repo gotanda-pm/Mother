@@ -5,7 +5,7 @@ requires 'List::Util';
 requires 'List::UtilsBy';
 requires 'Text::Xslate';
 requires 'Time::Moment';
-requires 'WWW::Connpass', '0.03';
+requires 'WWW::Connpass', '0.04';
 requires 'YAML::Tiny';
 requires 'parent';
 requires 'perl', '5.14';

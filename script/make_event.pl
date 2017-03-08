@@ -83,7 +83,8 @@ if (!$event->connpass_event_id) {
         } map { $event->waitlists($_) } qw/talk lt normal/
     );
 
-    my @user = map { $session->search_users_by_name($_) } qw/karupanerura papix kfly8/;
+    my %owners_map = map { $_->username => $_ } $connpass_event->owners;
+    my @user = map { $session->search_users_by_name($_) } grep { !$owners_map{$_} } qw/karupanerura papix kfly8/;
     for my $user (@user) {
         $connpass_event->add_owner($user);
     }

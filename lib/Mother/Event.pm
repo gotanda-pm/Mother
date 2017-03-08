@@ -44,6 +44,8 @@ sub sponsors {
 
 sub connpass_event_id {
     my $self = shift;
+    return unless $self->url;
+
     my ($id) = $self->url =~ m{^https?://gotanda-pm\.connpass\.com/event/([0-9]+)};
     return $id;
 }
