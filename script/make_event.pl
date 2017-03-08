@@ -41,11 +41,11 @@ unless (defined $group) {
 }
 
 my $connpass_event = $event->connpass_event_id ? $session->fetch_event_by_id($event->connpass_event_id) : undef;
-$connpass_event = $session->new_event($event->title) unless defined $connpass_event;
+$connpass_event = $session->new_event($event->title, { group => $group }) unless defined $connpass_event;
 if ($connpass_event->title ne $event->title) {
     die "Invalid url: ", $connpass_event->public_url;
 }
-$connpass_event = $connpass_event->set_group($group)->set_place($place)->edit(
+$connpass_event = $connpass_event->set_place($place)->edit(
     hashtag           => $event->hashtag,
     owner_text        => 'Gotanda.pm',
     sub_title         => $event->sub_title,
