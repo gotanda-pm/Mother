@@ -19,12 +19,12 @@ event:
       minutes: 10
     - type: talk
       minutes: 20
-      speaker: undef
-      detail: undef
+      speaker: myfinder
+      detail: YAPC - Yet Another Perl CGI
     - type: talk
       minutes: 20
-      speaker: undef
-      detail: undef
+      speaker: skaji
+      detail: Make your CPAN module static installable
     - type: break
       minutes: 10
     - type: lt
