@@ -29,8 +29,8 @@ event:
       minutes: 10
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: dokechin
+      detail: 誰でもDWHを実現したいのだ！！グラフ描写用APIの仕様と実装
     - type: lt
       minutes: 5
       speaker: undef
