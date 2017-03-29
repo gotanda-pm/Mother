@@ -19,38 +19,22 @@ event:
       minutes: 10
     - type: talk
       minutes: 20
-      speaker: myfinder
-      detail: YAPC - Yet Another Perl CGI
-    - type: talk
-      minutes: 20
       speaker: skaji
       detail: Make your CPAN module static installable
-    - type: break
-      minutes: 10
     - type: lt
       minutes: 5
       speaker: dokechin
       detail: 誰でもDWHを実現したいのだ！！グラフ描写用APIの仕様と実装
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
-    - type: lt
-      minutes: 5
-      speaker: undef
-      detail: undef
-    - type: lt
-      minutes: 5
-      speaker: undef
-      detail: undef
-    - type: lt
-      minutes: 5
-      speaker: undef
-      detail: undef
-    - type: lt
-      minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: pine613
+      detail: 卒業式
+    - type: break
+      minutes: 10
+    - type: talk
+      minutes: 40
+      speaker: karupanerura
+      detail: ライブコーディング(仮)
     - type: party
       minutes: 120
   sponsors: []
