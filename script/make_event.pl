@@ -58,7 +58,7 @@ $connpass_event = $connpass_event->set_place($place)->edit(
 if ($connpass_event->questionnaire->is_new) {
     $connpass_event->questionnaire->update_questions(
         WWW::Connpass::Event::Question::Radio->new(
-            title        => sprintf('懇親会への参加を希望しますか？(参加費:%d円/予定/会場払い)', $event->party->fee),
+            title        => sprintf('懇親会への参加を希望しますか？(参加費:%s円/予定/会場払い)', $event->party->fee),
             answer_frame => [qw/参加する 参加しない/],
             required     => 1,
         ),

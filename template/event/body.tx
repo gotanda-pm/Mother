@@ -1,3 +1,4 @@
+: if defined $event.thema().title() {
 # テーマ
 
 ## <: $event.thema().title() :>
@@ -7,6 +8,7 @@
 とはいえ、テーマと関係ないトーク、Perlと関係ないトークも大歓迎です。  
 交流が主な目的なので自己紹介気分で気楽にトークしてみましょう！
 
+: }
 # 詳細
 
 日時: <: $event.start_at().strftime('%Y/%m/%d (%a)') :> <: $event.open_at().strftime('%H:%M') :>開場 <: $event.start_at().strftime('%H:%M') :> 〜 <: $event.end_at().strftime('%H:%M') :>
