@@ -16,20 +16,18 @@ event:
   timetable:
     - type: announce
       minutes: 10
-    - type: talk
-      minutes: 20
-      speaker: undef
-      detail: undef
-    - type: talk
-      minutes: 20
-      speaker: undef
-      detail: undef
-    - type: break
-      minutes: 10
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: karupanerura
+      detail: Perl小ネタ
+    - type: lt
+      minutes: 5
+      speaker: kfly8
+      detail: Gotanda.pm 引き継ぎ式（？） / できたらなーと思っていること
+    - type: lt
+      minutes: 5
+      speaker: Shouhei Yoshida
+      detail: Firebaseで遊ぼう
     - type: lt
       minutes: 5
       speaker: undef
