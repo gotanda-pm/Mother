@@ -30,8 +30,8 @@ event:
       detail: Firebaseで遊ぼう
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: mackee_w
+      detail: postfix dereference 徹底攻略
     - type: lt
       minutes: 5
       speaker: undef
