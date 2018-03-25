@@ -32,6 +32,8 @@ event:
       minutes: 5
       speaker: mackee_w
       detail: postfix dereference 徹底攻略
+    - type: break
+      minutes: 10
     - type: lt
       minutes: 5
       speaker: papix
