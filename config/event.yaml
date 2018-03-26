@@ -44,8 +44,8 @@ event:
       detail: XS で作るクロージャ
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: skaji
+      detail: w0rp/ale + skaji/syntax-check-perl
     - type: lt
       minutes: 5
       speaker: undef
