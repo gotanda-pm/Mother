@@ -48,8 +48,8 @@ event:
       detail: w0rp/ale + skaji/syntax-check-perl
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: yuki_kimoto
+      detail: cpanmによるインストール可能アプリの作成方法
     - type: party
       minutes: 120
   sponsors: []
