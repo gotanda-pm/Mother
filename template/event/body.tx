@@ -57,3 +57,8 @@ Gotanda.pmの記録と広報の目的で、Gotanda.pmのWebサイトに掲載す
 : for $event.timetable().rows() -> $row {
 | <: $row.start_at().strftime('%H:%M') :>〜<: $row.end_at().strftime('%H:%M') :> | <: $row.title() :> | <: $row.description() :> |
 : }
+
+# Gotanda.pm Slack 入りたい
+
+こちらからどうぞ
+https://slackin-gotanda-pm.herokuapp.com/
