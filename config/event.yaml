@@ -36,10 +36,6 @@ event:
       minutes: 10
     - type: lt
       minutes: 5
-      speaker: papix
-      detail: Smart::Args入門(仮)
-    - type: lt
-      minutes: 5
       speaker: Code-Hex
       detail: XS で作るクロージャ
     - type: lt
@@ -50,6 +46,10 @@ event:
       minutes: 5
       speaker: yuki_kimoto
       detail: cpanmによるインストール可能アプリの作成方法
+    - type: lt
+      minutes: 5
+      speaker: You!
+      detail: 飛び込みお待ちしてます
     - type: party
       minutes: 120
   sponsors: []
