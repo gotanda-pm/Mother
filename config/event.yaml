@@ -1,60 +1,51 @@
 ---
 event:
-  id: 16
-  url: https://gotanda-pm.connpass.com/event/82791/
-  thema: ~
-    # title: undef
-    # description: |-
+  id: 17
+  url: https://gotanda-pm.connpass.com/event/84014/
+  thema:
+    title: Perl Getting Started
+    description: |-
+      春なので、ビギナー向けのPerl の話をしましょう!
   venue:
-    name: 株式会社モバイルファクトリー
-    address: 東京都品川区東五反田1-24-2 (東五反田1丁目ビル8階)
-    url: http://www.mobilefactory.jp/corporate/access
+    name: freee株式会社
+    address: 東京都品川区西五反田2-8-1 五反田ファーストビル 9F
+    url: https://corp.freee.co.jp/company/
     capacity: 30
-  date: 2018-03-30
+  date: 2018-04-16
   open_at: 19:00
   start_at: 19:30
   timetable:
     - type: announce
       minutes: 10
+    - type: talk
+      minutes: 20
+      speaker: undef
+      detail: undef
+    - type: talk
+      minutes: 20
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
-      speaker: karupanerura
-      detail: Perl小ネタ
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
-      speaker: kfly8
-      detail: Gotanda.pm 引き継ぎ式（？） / できたらなーと思っていること
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
-      speaker: Shouhei Yoshida
-      detail: Firebaseで遊ぼう
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
-      speaker: mackee_w
-      detail: postfix dereference 徹底攻略
-    - type: break
-      minutes: 10
-    - type: lt
-      minutes: 5
-      speaker: Code-Hex
-      detail: XS で作るクロージャ
-    - type: lt
-      minutes: 5
-      speaker: skaji
-      detail: w0rp/ale + skaji/syntax-check-perl
-    - type: lt
-      minutes: 5
-      speaker: yuki_kimoto
-      detail: cpanmによるインストール可能アプリの作成方法
-    - type: lt
-      minutes: 5
-      speaker: You!
-      detail: 飛び込みお待ちしてます
+      speaker: undef
+      detail: undef
     - type: party
-      minutes: 120
+      minutes: 90
   sponsors: []
     # - name: ~
     #   url: ~
   party:
-    venue: 適当な店
-    fee: 4000~5000
+    venue: freee 株式会社
+    fee: 1000
