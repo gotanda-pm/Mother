@@ -5,7 +5,7 @@
 
 <: $event.thema().description() :>
 
-とはいえ、テーマと関係ないトーク、Perlと関係ないトークも大歓迎です。  
+とはいえ、テーマと関係ないトーク、Perlと関係ないトークも大歓迎です。
 交流が主な目的なので自己紹介気分で気楽にトークしてみましょう！
 
 : }
@@ -28,8 +28,8 @@ Gotanda.pmの記録と広報の目的で、Gotanda.pmのWebサイトに掲載す
 
 # 懇親会
 
-<: $event.party().venue() :>で懇親会を開催する予定です。  
-皆様、奮ってご参加下さい！  
+<: $event.party().venue() :>で懇親会を開催する予定です。
+皆様、奮ってご参加下さい！
 : if $event.party().fee() == 0 && $event.sponsors().size() > 0 {
 スポンサー様のご厚意により参加費は無料とさせて頂ける予定です。スポンサーの
 :   for $event.sponsors() -> $sponsor {
@@ -61,4 +61,4 @@ Gotanda.pmの記録と広報の目的で、Gotanda.pmのWebサイトに掲載す
 # Gotanda.pm Slack 入りたい
 
 こちらからどうぞ
-https://slackin-gotanda-pm.herokuapp.com/
+https://slackin-gotanda-pm.now.sh
