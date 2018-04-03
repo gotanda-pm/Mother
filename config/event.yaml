@@ -27,20 +27,20 @@ event:
       detail: undef
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: odan
+      detail: rng-apiをAWS Lambdaに移行した時の話
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: _ybrliiu
+      detail: ぼくがPerlで開発を行うときに工夫していること(仮)
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: MacoTasu
+      detail: PerlからRubyに移って早3年。変数の定義の仕方すら忘れてしまったのでPerlを忘れない・思い出すためのお助けツールを作ってみた
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: tenmihi
+      detail: jsで何か話します
     - type: party
       minutes: 90
   sponsors: []
