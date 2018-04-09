@@ -18,13 +18,9 @@ event:
     - type: announce
       minutes: 10
     - type: talk
-      minutes: 20
-      speaker: undef
-      detail: undef
-    - type: talk
-      minutes: 20
-      speaker: undef
-      detail: undef
+      minutes: 30
+      speaker: kfly8
+      detail: BEGIN Perl
     - type: lt
       minutes: 5
       speaker: odan
@@ -41,6 +37,14 @@ event:
       minutes: 5
       speaker: tenmihi
       detail: jsで何か話します
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
     - type: party
       minutes: 90
   sponsors: []
