@@ -35,12 +35,12 @@ event:
       detail: PerlからRubyに移って早3年。変数の定義の仕方すら忘れてしまったのでPerlを忘れない・思い出すためのお助けツールを作ってみた
     - type: lt
       minutes: 5
-      speaker: tenmihi
-      detail: jsで何か話します
+      speaker: mackee_w
+      detail: Perl5にパッと見なさそうで実はある機能たち
     - type: lt
       minutes: 5
-      speaker: undef
-      detail: undef
+      speaker: kawahara
+      detail: 32ビットOSは今すぐ捨てろ！
     - type: lt
       minutes: 5
       speaker: undef
