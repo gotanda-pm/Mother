@@ -1,46 +1,55 @@
 ---
 event:
-  id: 17
-  url: https://gotanda-pm.connpass.com/event/84014/
+  id: 18
+  url: https://gotanda-pm.connpass.com/event/89459/
   thema:
-    title: Perl Getting Started
+    title: UNIXとPerl
     description: |-
-      春なので、ビギナー向けのPerl の話をしましょう!
+      今回の Gotanda.pm は、ゲストに kazeburo さんをお招きして、UNIX と Perl というテーマで開催です!
+      
   venue:
-    name: freee株式会社
-    address: 東京都品川区西五反田2-8-1 五反田ファーストビル 9F
-    url: https://corp.freee.co.jp/company/
+    name: 株式会社メルカリ
+    address: 東京都港区六本木6-10-1（六本木ヒルズ森タワー18F）
+    url: https://about.mercari.com/about/#locations
     capacity: 30
-  date: 2018-04-16
+  date: 2018-06-15
   open_at: 19:00
   start_at: 19:30
   timetable:
     - type: announce
-      minutes: 10
+      minutes: 5 
     - type: talk
       minutes: 30
-      speaker: kfly8
-      detail: BEGIN Perl
+      speaker: kazeburo
+      detail: UNIXとPerl
     - type: lt
       minutes: 5
-      speaker: odan
-      detail: rng-apiをAWS Lambdaに移行した時の話
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
-      speaker: _ybrliiu
-      detail: ぼくがPerlで開発を行うときに工夫していること(仮)
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
-      speaker: MacoTasu
-      detail: PerlからRubyに移って早3年。変数の定義の仕方すら忘れてしまったのでPerlを忘れない・思い出すためのお助けツールを作ってみた
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
-      speaker: mackee_w
-      detail: Perl5にパッと見なさそうで実はある機能たち
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
-      speaker: kawahara
-      detail: 32ビットOSは今すぐ捨てろ！
+      speaker: undef
+      detail: undef
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
+    - type: lt
+      minutes: 5
+      speaker: undef
+      detail: undef
     - type: lt
       minutes: 5
       speaker: undef
@@ -51,5 +60,5 @@ event:
     # - name: ~
     #   url: ~
   party:
-    venue: freee 株式会社
-    fee: 1000
+    venue: undef
+    fee: 5000

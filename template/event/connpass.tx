@@ -2,8 +2,4 @@
 
 第<: $event.id :>回目のTech Conferenceを開催します。
 
-スーパーゆるーい感じで開催する予定です。
-
-奮ってご応募下さい！
-
 : include event::body
